@@ -669,6 +669,7 @@ body {
 .up a:hover i {
   color: #00ff8886;
   transform: scale(110%);
+  overflow: visible !important;
 }
 /* End Up */
 
