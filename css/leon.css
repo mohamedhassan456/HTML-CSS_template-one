@@ -664,6 +664,7 @@ body {
   bottom: 15px;
   z-index: 1;
   transition: 0.3s;
+  overflow-x: hidden;
 }
 .up i {
   color: #1086ca80;
@@ -688,6 +689,7 @@ body {
   justify-content: center;
   border-color: inherit;
   max-height: 100%;
+  overflow-x: hidden;
 }
 .signature p {
   color: #ffe79ea8;
