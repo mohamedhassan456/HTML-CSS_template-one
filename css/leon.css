@@ -32,21 +32,18 @@ body {
 @media (min-width: 768px) {
   .container {
     width: 750px;
-    overflow-x: hidden;
   }
 }
 /* Medium */
 @media (min-width: 992px) {
   .container {
     width: 970px;
-    overflow-x: hidden;
   }
 }
 /* Large */
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
-    overflow-x: hidden;
   }
 }
 /* End Globale rules */
@@ -669,7 +666,6 @@ body {
 .up a:hover i {
   color: #00ff8886;
   transform: scale(110%);
-  overflow: visible !important;
 }
 /* End Up */
 
