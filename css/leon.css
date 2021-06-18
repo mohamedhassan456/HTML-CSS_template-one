@@ -619,7 +619,7 @@ body {
 /* Start Footer */
 .footer {
   background-color: var(--secondary-color);
-  width: 100% ;
+  max-width: 100%;
   height: 60px;
   position: relative;
 }
@@ -671,7 +671,7 @@ body {
 /* Start Signature */
 .signature {
   background-color: #0a181f;
-  width: 100% ;
+  max-width: 100%;
   height: 50px;
   text-align: center;
   position: relative;
