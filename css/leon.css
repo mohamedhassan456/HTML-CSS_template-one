@@ -465,7 +465,6 @@ body {
     height: 230px;
     border-bottom-width: 45px;
     border-left-width: 105px;
-    overflow: hidden;
   }
 }
 .about .about-content .image img {
@@ -514,7 +513,6 @@ body {
 @media (max-width: 767px) {
   .contact .contact-content {
     height: 210px;
-    overflow: hidden;
   }
 }
 .contact .contact-content .info {
