@@ -15,12 +15,10 @@
 }
 html{
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
   font-family: "Work Sans", sans-serif;
-  overflow-x: hidden;
 }
 
 .container {
@@ -28,7 +26,6 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  overflow-x: hidden;
 }
 
 /* Small */
