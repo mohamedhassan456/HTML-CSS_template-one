@@ -15,6 +15,7 @@
 }
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -399,6 +400,7 @@ body {
 .about {
   padding-top: var(--section-padding);
   padding-bottom: calc(var(--section-padding) + 60px); 
+  overflow-x: hidden;
 }
 /* About Content */
 .about .about-content {
@@ -460,6 +462,7 @@ body {
 @media (max-width: 750px) {
   .about .about-content .image::before {
     margin-left: -30px;
+    overflow: hidden;
   }
 }
 @media (max-width: 750px) {
@@ -469,7 +472,7 @@ body {
     height: 230px;
     border-bottom-width: 45px;
     border-left-width: 105px;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 }
 .about .about-content .image img {
