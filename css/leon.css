@@ -34,21 +34,21 @@ body {
 @media (min-width: 768px) {
   .container {
     width: 750px;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 }
 /* Medium */
 @media (min-width: 992px) {
   .container {
     width: 970px;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 }
 /* Large */
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 }
 /* End Globale rules */
@@ -664,7 +664,7 @@ body {
   bottom: 15px;
   z-index: 1;
   transition: 0.3s;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .up i {
   color: #1086ca80;
@@ -689,7 +689,7 @@ body {
   justify-content: center;
   border-color: inherit;
   max-height: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .signature p {
   color: #ffe79ea8;
