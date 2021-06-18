@@ -20,6 +20,7 @@ html{
 
 body {
   font-family: "Work Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
@@ -27,24 +28,28 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  overflow-x: hidden;
 }
 
 /* Small */
 @media (min-width: 768px) {
   .container {
     width: 750px;
+    overflow-x: hidden;
   }
 }
 /* Medium */
 @media (min-width: 992px) {
   .container {
     width: 970px;
+    overflow-x: hidden;
   }
 }
 /* Large */
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
+    overflow-x: hidden;
   }
 }
 /* End Globale rules */
