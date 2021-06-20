@@ -140,19 +140,23 @@ body {
   top: calc(100% + 15px);
   display: none;
   z-index: 1;
+  /* overflow-x: hidden; */
 }
 .header .links:hover ul {
   display: block;
 }
 .header .links ul::before {
   content: "";
-  border-width: 10px;
+  border-width: 20px;
   border-style: solid;
   border-color: transparent transparent #f6f6f6 transparent;
   position: absolute;
-  right: 1px;
-  top: -17px;
+  right: -5px;
+  top: -32px;
   border-radius: 50%;
+}
+.header .links ul li {
+  overflow: hidden;
 }
 .header .links ul li a {
   display: block;
@@ -182,7 +186,7 @@ body {
   overflow: hidden;
 }
 .landing:hover {
-  transform: scale(105%);
+  transform: scale(102%);
   cursor: pointer;
 }
 .landing .intro-text {
