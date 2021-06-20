@@ -179,9 +179,10 @@ body {
   height: calc(100vh - 61px);
   position: relative;
   transition: 0.3s;
+  overflow: hidden;
 }
 .landing:hover {
-  transform: translateY(10px);
+  transform: scale(105%);
   cursor: pointer;
 }
 .landing .intro-text {
@@ -677,6 +678,7 @@ body {
   text-align: center;
   position: absolute;
   bottom: 12px;
+  left: 12px;
 } 
 .up a i:hover {
   color: #00ff8886;
