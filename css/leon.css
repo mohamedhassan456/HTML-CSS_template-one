@@ -666,8 +666,8 @@ body {
   z-index: 1;
   transition: 0.3s;
   /* overflow: hidden; */
-  width: 250px;
-  height: 250px;
+  max-width: 100%;
+  max-height: 100%;
 }
 .up i {
   color: #1086ca80;
